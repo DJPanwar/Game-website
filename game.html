@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <img src="./images/main.png" class="logo">
+        <ul>
+            <li><a href="game.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+        </ul>
+    </div>
+    <div class="game-container">
+        <img src="./images/main.png">
+    </div>
+    <div class="cards">
+        <div class="card" data-aos="flip-left" data-aos-delay="50" data-aos-duration="1000">
+            <div class="Card-1">
+             <a href="snake.html"><img src="snake-game.jpg"></a>
+            </div>
+        </div>
+        <div class="card" data-aos="flip-right" data-aos-delay="50" data-aos-duration="1000">
+            Card-2
+        </div>
+        <div class="card" data-aos="flip-left" data-aos-delay="50" data-aos-duration="1000">
+            Card-3
+        </div>
+        <div class="card" data-aos="flip-right" data-aos-delay="50" data-aos-duration="1000">
+            Card-4
+        </div>
+        <div class="card" data-aos="flip-left" data-aos-delay="50" data-aos-duration="1000">
+            Card-5
+        </div>
+        <div class="card" data-aos="flip-right" data-aos-delay="50" data-aos-duration="1000">
+            Card-6
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: false
+        });
+    </script>
+</body>
+
+</html>
