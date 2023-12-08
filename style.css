@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/computer.jpg");
+  background-size: cover;
+}
+
+.navbar {
+  width: 100%;
+  margin: auto;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 140px;
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+
+  .navbar ul li a:hover {
+    color: #4defa1;
+    
+  }
+
+.game-container {
+  min-height: 72vh;
+  padding: 34px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: white;
+  font-family: sans-serif;
+}
+
+.but {
+  position: absolute;
+  bottom: 280px;
+  padding: 25px 100px;
+}
+
+.but button {
+  padding: 14px;
+  width: 110px;
+  border: 0.5px solid white;
+  background: transparent;
+  color: white;
+  border-radius: 23px;
+  cursor: pointer;
+  
+}
+
+.but button:hover {
+  background: #4defa1;
+  box-shadow: 0 0 7px #24d37f
+}
+.but a{
+  text-decoration: none;
+  color:white;
+}
+
+#madeby {
+  position: absolute;
+  bottom: 0;
+  padding: 25px 100px;
+  color: #fff;
+  
+}
+
+
+@media only screen and (max-width: 1100px) {
+  .logo {
+    width: 140px;
+    margin: 0 -20px;
+    cursor: pointer;
+  }
+  .game-container img {
+    height: 230px;
+  }
+
+  .navbar ul li {
+    margin: 0 10px;
+  }
+
+  .container {
+    width: 40%;
+    min-height: 35vh;
+  }
+
+  .but {
+    position: absolute;
+    bottom: 180px;
+    padding: 25px 100px;
+  }
+
+  .but button:hover {
+    background: #2cda87;
+    box-shadow: 0 0 7px #24d37f
+  }
+
+  #madeby {
+    font-size: 14px;
+    padding: 30px 25px;
+  }
+
+  .card {
+    width: 60%;
+  }
+}
